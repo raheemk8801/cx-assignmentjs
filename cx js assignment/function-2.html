@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function greetWithName(name, binaryNumber) {
+            if (binaryNumber === 1) {
+              return "Hello " + name;
+            } else if (binaryNumber === 0) {
+              return "Bye " + name;
+            } else {
+              return "Invalid binary number. Please enter 0 or 1.";
+            }
+          }
+          
+          // Example usage:
+          const name = "John";
+          const binary = 1;
+          const greeting = greetWithName(name, binary);
+          console.log(greeting); // Output: "Hello John"
+          
+    </script>
+</body>
+</html>
